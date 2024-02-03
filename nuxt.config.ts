@@ -3,7 +3,9 @@ import {defineNuxtConfig} from 'nuxt/config'
 
 export default defineNuxtConfig({
     ssr: false,
-    baseURL: '/sarmayex/',
+    app:{
+      baseURL:  '/sarmayex/'
+    },
     devtools: {enabled: true},
     modules: ['@nuxtjs/tailwindcss', "@nuxt/image"],
     plugins: [],
